@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-ext-base-srev",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Reverse a single-precision floating-point strided array in-place.",
   "license": "Apache-2.0",
   "author": {
