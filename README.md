@@ -20,7 +20,7 @@ limitations under the License.
 
 # srev
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Reverse a single-precision floating-point strided array in-place.
 
@@ -181,8 +181,8 @@ console.log( x );
 
 ## See Also
 
--   [`@stdlib/blas/ext/base/drev`][@stdlib/blas/ext/base/drev]: reverse a double-precision floating-point strided array in-place.
--   [`@stdlib/blas/ext/base/grev`][@stdlib/blas/ext/base/grev]: reverse a strided array in-place.
+-   <span class="package-name">[`@stdlib/blas/ext/base/drev`][@stdlib/blas/ext/base/drev]</span><span class="delimiter">: </span><span class="description">reverse a double-precision floating-point strided array in-place.</span>
+-   <span class="package-name">[`@stdlib/blas/ext/base/grev`][@stdlib/blas/ext/base/grev]</span><span class="delimiter">: </span><span class="description">reverse a strided array in-place.</span>
 
 </section>
 
@@ -233,8 +233,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-ext-base-srev/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/blas-ext-base-srev?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/blas-ext-base-srev.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/blas-ext-base-srev/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
