@@ -24,38 +24,30 @@ limitations under the License.
 
 > Reverse a single-precision floating-point strided array in-place.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/blas-ext-base-srev
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-srev = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var srev = require( 'path/to/vendor/umd/blas-ext-base-srev/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.srev;
-})();
-</script>
+var srev = require( '@stdlib/blas-ext-base-srev' );
 ```
 
 #### srev( N, x, stride )
@@ -157,16 +149,11 @@ srev.ndarray( 3, x, 1, x.length-3 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var round = require( '@stdlib/math-base-special-round' );
+var randu = require( '@stdlib/random-base-randu' );
+var Float32Array = require( '@stdlib/array-float32' );
+var srev = require( '@stdlib/blas-ext-base-srev' );
 
 var rand;
 var sign;
@@ -188,11 +175,6 @@ console.log( x );
 
 srev( x.length, x, 1 );
 console.log( x );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -253,8 +235,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/blas-ext-base-srev.svg
 [npm-url]: https://npmjs.org/package/@stdlib/blas-ext-base-srev
 
-[test-image]: https://github.com/stdlib-js/blas-ext-base-srev/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/blas-ext-base-srev/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/blas-ext-base-srev/actions/workflows/test.yml/badge.svg?branch=v0.0.9
+[test-url]: https://github.com/stdlib-js/blas-ext-base-srev/actions/workflows/test.yml?query=branch:v0.0.9
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-ext-base-srev/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/blas-ext-base-srev?branch=main
@@ -283,15 +265,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-ext-base-srev/main/LICENSE
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/blas/ext/base/drev]: https://github.com/stdlib-js/blas-ext-base-drev/tree/umd
+[@stdlib/blas/ext/base/drev]: https://github.com/stdlib-js/blas-ext-base-drev
 
-[@stdlib/blas/ext/base/grev]: https://github.com/stdlib-js/blas-ext-base-grev/tree/umd
+[@stdlib/blas/ext/base/grev]: https://github.com/stdlib-js/blas-ext-base-grev
 
 <!-- </related-links> -->
 
