@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import srev from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@deno/mod.js';
+import srev from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@v0.0.11-deno/mod.js';
 ```
 
 #### srev( N, x, stride )
@@ -137,7 +137,7 @@ srev.ndarray( 3, x, 1, x.length-3 );
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
-import srev from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@deno/mod.js';
+import srev from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@v0.0.11-deno/mod.js';
 
 var rand;
 var sign;
