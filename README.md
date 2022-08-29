@@ -33,6 +33,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+srev = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-srev/tags). For example,
+
+```javascript
 srev = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@v0.0.11-umd/browser.js' )
 ```
 
@@ -45,7 +50,7 @@ var srev = require( 'path/to/vendor/umd/blas-ext-base-srev/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@v0.0.11-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -164,7 +169,7 @@ srev.ndarray( 3, x, 1, x.length-3 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@v0.0.11-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
