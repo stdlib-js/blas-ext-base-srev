@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import srev from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@esm/index.mjs';
+import srev from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@v0.2.2-esm/index.mjs';
 ```
 
 #### srev( N, x, stride )
@@ -148,7 +148,7 @@ srev.ndarray( 3, x, 1, x.length-3 );
 
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import srev from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@esm/index.mjs';
+import srev from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-srev@v0.2.2-esm/index.mjs';
 
 var rand = discreteUniform( -100, 100 );
 
