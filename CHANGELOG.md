@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-07)
+## Unreleased (2026-03-16)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`e031155`](https://github.com/stdlib-js/stdlib/commit/e0311558e49df0b673eab70c11796fc7de62efb4) - **bench:** refactor to use string interpolation in `blas/ext/base/srev` [(#10912)](https://github.com/stdlib-js/stdlib/pull/10912) _(by Partha Das)_
 -   [`c70d673`](https://github.com/stdlib-js/stdlib/commit/c70d673d45f8bad3ca3305a582d9323e656758d9) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/srev` [(#10772)](https://github.com/stdlib-js/stdlib/pull/10772) _(by Prajjwal Bajpai)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Partha Das
 -   Prajjwal Bajpai
 
 </section>
